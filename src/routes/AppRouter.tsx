@@ -1,5 +1,4 @@
 import { Route, Routes } from "react-router-dom"
-
 import CardInstrument from "../components/CardInstrument"
 import { Menu } from "../components/Menu"
 
