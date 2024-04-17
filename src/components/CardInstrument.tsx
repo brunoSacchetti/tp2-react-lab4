@@ -1,10 +1,10 @@
 import { Card, ListGroup, Row, Col } from "react-bootstrap";
-import instrumentos from "../instrumentos.json";
+import InstrumentosJSON from "../instrumentos.json";
 
 const CardInstrument = () => {
   return (
     <>
-      {instrumentos.instrumentos.map((instrumento, index) => (
+      {InstrumentosJSON.instrumentos.map((instrumento, index) => (
         <Card key={index}>
           <Row>
             <Col md={4}>
